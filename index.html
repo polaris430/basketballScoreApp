@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="heading"><h1 style="color: #583e26">NBA SCORECARD</h1></div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 style="color: #583e26">HOME SCORE</h2>
+          <h1 style="color: #583e26" id="homescore">0</h1>
+          <button onclick="add1()">+1</button>
+          <button onclick="add2()">+2</button>
+          <button onclick="add3()">+3</button>
+        </div>
+        <div class="col">
+          <h2 style="color: #583e26">AWAY SCORE</h2>
+          <h1 style="color: #583e26" id="awayscore">0</h1>
+          <button onclick="add1away()">+1</button>
+          <button onclick="add2away()">+2</button>
+          <button onclick="add3away()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
